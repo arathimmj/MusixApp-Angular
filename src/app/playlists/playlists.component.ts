@@ -18,4 +18,11 @@ export class PlaylistsComponent implements OnInit {
     });
   }
 
+  deleteSong(track){
+    console.log(track)
+    this.service.removeFromPlaylist(track).subscribe(data =>{
+      console.log(data)
+    });
+  }
+
 }

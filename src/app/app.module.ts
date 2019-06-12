@@ -11,6 +11,7 @@ import { CardComponent } from './card/card.component';
 import { TracksService } from './services/tracks.service'
 import { PlaylistsComponent } from './playlists/playlists.component';
 import { HomeComponent } from './home/home.component';
+import { DetailsComponent } from './details/details.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HomeComponent } from './home/home.component';
     CardsComponent,
     CardComponent,
     PlaylistsComponent,
-    HomeComponent
+    HomeComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,

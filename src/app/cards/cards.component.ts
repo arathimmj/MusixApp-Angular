@@ -16,6 +16,7 @@ export class CardsComponent implements OnInit {
   ngOnInit() {
     this.service.getAllTracks().subscribe(data =>{
       this.tracks = data.tracks.track;
+      console.log(this.tracks);
     });
   }
 
